@@ -643,9 +643,14 @@
 </section>
 <script>
   
-setTimeout(function(){
-  $("#loader-wrapper").slideToggle()
-},7000)
+// setTimeout(function(){
+//   $("#loader-wrapper").slideToggle()
+// },7000)
+ var preloader = document .getElementById('loader-wrapper');
+
+function myfunction() {
+  preloader.style.display ='none'
+}
 
 </script>
   <script src="js/jquery-1.12.4.min.js"></script>
